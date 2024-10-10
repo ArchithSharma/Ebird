@@ -1,2 +1,2 @@
 # Ebird
-This repository contains the code used for creating time-series models based on eBird through adjusting for biases. The process in which this code was implemented is documented in this [paper](https://drive.google.com/file/d/1cIrRHAIYHJUm1SQ72SPa9FptMAa3_OAa/view?usp=sharing). 
+This repository contains the code used for creating time-series models based on eBird through adjusting for biases. The process in which this code was implemented is documented in this [paper](https://drive.google.com/file/d/1cIrRHAIYHJUm1SQ72SPa9FptMAa3_OAa/view?usp=sharing). The data can be requested on the [eBird website](https://ebird.org/data/request). Filtering is done with the [auk package](https://cornelllabofornithology.github.io/auk/). Happy expanding on the model!
