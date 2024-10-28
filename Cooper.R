@@ -1,7 +1,7 @@
 coohaw <- auk_ebd("/Users/archith/Downloads/ebd_US_coohaw_smp_relApr-2024/ebd_US_coohaw_smp_relApr-2024.txt", "/Users/archith/Downloads/ebd_US_coohaw_smp_relApr-2024/ebd_US_coohaw_smp_relApr-2024_sampling.txt")
 coohaw <- auk_complete(coohaw)
 coohaw <- auk_date(coohaw, c("*-06-01", "*-06-30"))
-coohaw <- auk_state(coohaw, c("US-NY", "US-PA", "US-CT", "US-DE", "US-FL", "US-GA", "US-ME", "US-MD", "US-MA", "US-NH", "US-NJ", "US-NC", "US-RI", "US-SC", "US-VT", "US-VA", "US-WV"))
+coohaw <- auk_state(coohaw, c("US-DC", "US-NY", "US-PA", "US-CT", "US-DE", "US-FL", "US-GA", "US-ME", "US-MD", "US-MA", "US-NH", "US-NJ", "US-NC", "US-RI", "US-SC", "US-VT", "US-VA", "US-WV"))
 #coohaw <- auk_state(coohaw, "US-FL")
 #coohaw <- auk_bcr(coohaw, c(16))
 auk_filter(coohaw, "/Users/archith/Downloads/coohaw_FILTERED.txt", "/Users/archith/Downloads/coohaw_FILTERED_SAMPLINGA.txt", overwrite = TRUE)
